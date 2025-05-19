@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Um Meio Produções</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background: #f5f7fa; color: #222; }
+    header { background: #1565c0; color: white; padding: 24px 0 24px 24px; display: flex; align-items: center; }
+    header img { height: 56px; margin-right: 24px; border-radius: 8px; }
+    header h1 { font-size: 2.2em; font-weight: 700; margin: 0; letter-spacing: 2px; }
+    .banner { width: 100%; height: 220px; background: linear-gradient(90deg, #42a5f5, #26c6da); display: flex; align-items: center; justify-content: center; margin-bottom: 32px; }
+    .banner h2 { color: white; font-size: 2em; font-weight: 400; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; margin: 0 0 48px 0; }
+    .card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); width: 320px; padding: 32px 24px; text-align: center; }
+    .card h3 { color: #1565c0; margin-top: 0; }
+    .card p { color: #444; }
+    footer { background: #1565c0; color: white; text-align: center; padding: 18px 0; font-size: 1em; }
+    @media (max-width: 900px) {
+      .container { flex-direction: column; align-items: center; }
+      .banner { height: 140px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Logo">
+    <h1>Um Meio Produções</h1>
+  </header>
+  <div class="banner">
+    <h2>Bem-vindos! Conheça nossas produções e projetos.</h2>
+  </div>
+  <div class="container">
+    <div class="card">
+      <h3>Produções</h3>
+      <p>Veja os trabalhos, vídeos e projetos criativos realizados por nossos alunos!</p>
+      <a href="#" style="color:#26c6da; text-decoration:underline;">Saiba mais</a>
+    </div>
+    <div class="card">
+      <h3>Sobre</h3>
+      <p>Conheça o nosso objetivo, equipe e missão enquanto espaço de aprendizagem.</p>
+      <a href="#" style="color:#26c6da; text-decoration:underline;">Saiba mais</a>
+    </div>
+    <div class="card">
+      <h3>Contato</h3>
+      <p>Entre em contato para dúvidas, sugestões ou parcerias.</p>
+      <a href="#" style="color:#26c6da; text-decoration:underline;">Saiba mais</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Um Meio Produções — Inspirado em Google Sites
+  </footer>
+</body>
+</html>
